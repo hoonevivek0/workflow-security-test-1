@@ -10,7 +10,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Elevated permissions to deploy
+      contents: write  # Elevated permissions to deployyyy
       deployments: write
     steps:
       - name: Checkout code
