@@ -16,7 +16,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         with:
-          ref: ${{ github.event.workflow_run.head_sha }}  # Checks out the code from the triggering PR
+          ref: ${{ github.event.workflow_run.head_branch }}  # Checks out the code from the triggering PR
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
